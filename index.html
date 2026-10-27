@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Information Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>User Information Form</h2>
+
+    <form id="userForm">
+        <label>Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="Male" required> Male
+        <input type="radio" name="gender" value="Female"> Female
+
+        <label>Mobile Number:</label>
+        <input type="tel" id="mobile" required>
+
+        <label>Email ID:</label>
+        <input type="email" id="email" required>
+
+        <label>City:</label>
+        <input type="text" id="city" required>
+
+        <label>State:</label>
+        <input type="text" id="state" required>
+
+        <label>Country:</label>
+        <input type="text" id="country" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

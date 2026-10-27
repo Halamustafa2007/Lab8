@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Display User Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>User Details</h2>
+
+    <div id="result"></div>
+
+    <script>
+        document.getElementById("result").innerHTML =
+            "Name: " + localStorage.getItem("name") + "<br>" +
+            "Gender: " + localStorage.getItem("gender") + "<br>" +
+            "Mobile: " + localStorage.getItem("mobile") + "<br>" +
+            "Email: " + localStorage.getItem("email") + "<br>" +
+            "City: " + localStorage.getItem("city") + "<br>" +
+            "State: " + localStorage.getItem("state") + "<br>" +
+            "Country: " + localStorage.getItem("country");
+    </script>
+
+</body>
+</html>
